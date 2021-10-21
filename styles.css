@@ -17,7 +17,7 @@ body {
 .order-card {
   width: 320px;
   background-color: #fff;
-  margin: 50px auto;
+  margin: 50px auto 30px;
   border-radius: 15px;
   height: 500px;
 }
@@ -135,6 +135,10 @@ h1 {
 .a-cancel:hover {
   color: #1F2F56;
   font-weight: 900;
+}
+
+footer{
+  font-size: 10px;
 }
 
 @media screen and (max-width: 375px) {
