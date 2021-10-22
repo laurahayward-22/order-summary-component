@@ -7,8 +7,6 @@
 
   <title>Frontend Mentor: Order Summary Component</title>
 
-
-
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
 
@@ -17,7 +15,8 @@
 
 </head>
 
-<body>
+<main>
+  <body>
 
   <!-- Order Card -->
   <div class="order-card">
@@ -38,7 +37,7 @@
   <!-- Order summary -->
     <div class="summary-box">
 
-      <img class="icon-image" src="icon-music.svg" />
+      <img class="icon-image" src="icon-music.svg" alt="music note image" />
 
       <div class="summary-text">
         <p class="annual-plan">Annual Plan</p>
@@ -49,28 +48,29 @@
 
       <!-- Link for changing order -->
       <div class="change-link">
-        <a class="a-change" href="#">Change</a>
+        <a class="a-change" href="#" aria-label="Change order">Change</a>
       </div>
     </div>
 
     <!-- Button for proceeding with payment -->
     <div class="payment">
-      <button class="btn-payment"><a class="a-payment" href="#">Proceed to payment
-        </a> </button>
+      <button class="btn-payment" href="#" aria-label="Proceed with payment">Proceed to payment
+        </button>
     </div>
 
     <!-- Link for cancelling order -->
     <div class="cancel-order">
-      <a class="a-cancel" href="#cancelorder">Cancel order</>
+      <a class="a-cancel" href="#cancelorder" aria-label="cancel order">Cancel order</>
     </div>
   </div>
+ </main>
 
-  <footer>
-     <p>
-       <a href="https://www.frontendmentor.io/">Challenge by Frontend Mentor.</a>
+ <footer>
+    <p>
+      <a href="https://www.frontendmentor.io/">Challenge by Frontend Mentor.</a>
         Coded by Laura Hayward.
-     </p>
-  </footer>
+    </p>
+ </footer>
 
 </body>
 
