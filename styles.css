@@ -1,5 +1,5 @@
 body {
-  background-image: url('pattern-background-desktop.svg');
+  background-image: url('images/pattern-background-desktop.svg');
   background-repeat: no-repeat;
   background-size: contain;
   background-attachment: fixed;
@@ -15,33 +15,40 @@ body {
   }
 
 .order-card {
-  width: 320px;
+  width: 400px;
   background-color: #fff;
-  margin: 50px auto 30px;
+  margin: 80px auto 0;
   border-radius: 15px;
-  height: 500px;
+  height: 600px;
+
 }
 
 .top-img {
-  width: 320px;
+  width: 400px;
   border-radius: 15px 15px 0 0;
 }
 
 h1 {
+
   font-weight: 900;
   font-size: 25px;
 }
 
 /* Introduction text */
 .intro {
-  width: 300px;
-  margin: 0 10px 0 10px;
+  width: 400px;
+  padding-top: 20px;
+
 }
 
 .intro-text {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 300;
   color: #1F2F56;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-bottom: 15px;
+
 }
 
 /* Order summary */
@@ -51,10 +58,10 @@ h1 {
   height: 90px;
   width: 280px;
   border-radius: 10%;
-  margin-left: 20px;
-  margin-right: 10px;
+  margin: auto;
   text-align: left;
   position: relative;
+
 }
 
 .icon-image {
@@ -91,7 +98,7 @@ h1 {
 
 .a-change {
   font-size: 10px;
-  color: #1F2F56;
+  color: #3829E0;
   font-weight: bold;
 }
 
@@ -111,6 +118,7 @@ h1 {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   width: 280px;
   border-style: none;
+  font-weight: 900;
 }
 
 .btn-payment:hover {
@@ -127,13 +135,13 @@ h1 {
 
 .a-cancel {
   font-size: 12px;
-  font-weight: 300;
+  font-weight: 900;
   text-decoration: none;
   color: #1F2F56;
 }
 
 .a-cancel:hover {
-  color: #1F2F56;
+  color: black;
   font-weight: 900;
 }
 
